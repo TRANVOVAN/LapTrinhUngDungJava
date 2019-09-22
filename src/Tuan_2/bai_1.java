@@ -8,7 +8,7 @@ public class bai_1 extends JFrame
 {
  public bai_1()
  {
-     super("Lab Bai_1");
+     super("Lab Bai 1");
      setDefaultCloseOperation(EXIT_ON_CLOSE);
       
  }
