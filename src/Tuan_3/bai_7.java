@@ -34,18 +34,18 @@ public class bai_7 extends javax.swing.JFrame {
         nutDongCT = new javax.swing.JButton();
         jPnMid = new javax.swing.JPanel();
         jPnChonTacVu = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
+        nutTDenSChan = new javax.swing.JButton();
+        nutTDenSLe = new javax.swing.JButton();
+        nutTDenSNTo = new javax.swing.JButton();
+        nutBoTDen = new javax.swing.JButton();
+        nutXoaCGTDTDen = new javax.swing.JButton();
+        nutTGTTrongJL = new javax.swing.JButton();
         jPnNhapTTin = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jList1 = new javax.swing.JList<>();
-        jButton7 = new javax.swing.JButton();
-        jTextField1 = new javax.swing.JTextField();
-        jCheckBox1 = new javax.swing.JCheckBox();
+        nutNhap = new javax.swing.JButton();
+        hienThiSo = new javax.swing.JTextField();
+        jCBChonSoAm = new javax.swing.JCheckBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -68,34 +68,34 @@ public class bai_7 extends javax.swing.JFrame {
 
         jPnChonTacVu.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Chọn tác vụ", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11))); // NOI18N
 
-        jButton1.setBackground(new java.awt.Color(153, 204, 255));
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton1.setText("Tô đen số chẵn");
+        nutTDenSChan.setBackground(new java.awt.Color(153, 204, 255));
+        nutTDenSChan.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        nutTDenSChan.setText("Tô đen số chẵn");
 
-        jButton2.setBackground(new java.awt.Color(153, 204, 255));
-        jButton2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton2.setText("Tô đen số lẻ");
+        nutTDenSLe.setBackground(new java.awt.Color(153, 204, 255));
+        nutTDenSLe.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        nutTDenSLe.setText("Tô đen số lẻ");
 
-        jButton3.setBackground(new java.awt.Color(153, 204, 255));
-        jButton3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton3.setText("Tô đen số nguyên tố");
+        nutTDenSNTo.setBackground(new java.awt.Color(153, 204, 255));
+        nutTDenSNTo.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        nutTDenSNTo.setText("Tô đen số nguyên tố");
 
-        jButton4.setBackground(new java.awt.Color(153, 204, 255));
-        jButton4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton4.setText("Bỏ tô đen");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        nutBoTDen.setBackground(new java.awt.Color(153, 204, 255));
+        nutBoTDen.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        nutBoTDen.setText("Bỏ tô đen");
+        nutBoTDen.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                nutBoTDenActionPerformed(evt);
             }
         });
 
-        jButton5.setBackground(new java.awt.Color(153, 204, 255));
-        jButton5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton5.setText("Xoá các giá trị đang tô đen");
+        nutXoaCGTDTDen.setBackground(new java.awt.Color(153, 204, 255));
+        nutXoaCGTDTDen.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        nutXoaCGTDTDen.setText("Xoá các giá trị đang tô đen");
 
-        jButton6.setBackground(new java.awt.Color(153, 204, 255));
-        jButton6.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton6.setText("Tổng giá trị trong JList");
+        nutTGTTrongJL.setBackground(new java.awt.Color(153, 204, 255));
+        nutTGTTrongJL.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        nutTGTTrongJL.setText("Tổng giá trị trong JList");
 
         javax.swing.GroupLayout jPnChonTacVuLayout = new javax.swing.GroupLayout(jPnChonTacVu);
         jPnChonTacVu.setLayout(jPnChonTacVuLayout);
@@ -103,29 +103,29 @@ public class bai_7 extends javax.swing.JFrame {
             jPnChonTacVuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPnChonTacVuLayout.createSequentialGroup()
                 .addGroup(jPnChonTacVuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3)
-                    .addComponent(jButton4)
-                    .addComponent(jButton5)
-                    .addComponent(jButton6))
+                    .addComponent(nutTDenSChan)
+                    .addComponent(nutTDenSLe)
+                    .addComponent(nutTDenSNTo)
+                    .addComponent(nutBoTDen)
+                    .addComponent(nutXoaCGTDTDen)
+                    .addComponent(nutTGTTrongJL))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPnChonTacVuLayout.setVerticalGroup(
             jPnChonTacVuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPnChonTacVuLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton1)
+                .addComponent(nutTDenSChan)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton2)
+                .addComponent(nutTDenSLe)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton3)
+                .addComponent(nutTDenSNTo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton4)
+                .addComponent(nutBoTDen)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton5)
+                .addComponent(nutXoaCGTDTDen)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton6)
+                .addComponent(nutTGTTrongJL)
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
@@ -138,13 +138,13 @@ public class bai_7 extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jList1);
 
-        jButton7.setBackground(new java.awt.Color(153, 204, 255));
-        jButton7.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton7.setText("Nhập");
-        jButton7.setBorder(null);
+        nutNhap.setBackground(new java.awt.Color(153, 204, 255));
+        nutNhap.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        nutNhap.setText("Nhập");
+        nutNhap.setBorder(null);
 
-        jCheckBox1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jCheckBox1.setText("Chọn nhập số âm");
+        jCBChonSoAm.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jCBChonSoAm.setText("Chọn nhập số âm");
 
         javax.swing.GroupLayout jPnNhapTTinLayout = new javax.swing.GroupLayout(jPnNhapTTin);
         jPnNhapTTin.setLayout(jPnNhapTTinLayout);
@@ -152,14 +152,14 @@ public class bai_7 extends javax.swing.JFrame {
             jPnNhapTTinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPnNhapTTinLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(nutNhap, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(hienThiSo, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox1)
-                .addContainerGap(16, Short.MAX_VALUE))
+                .addComponent(jCBChonSoAm)
+                .addContainerGap(20, Short.MAX_VALUE))
             .addGroup(jPnNhapTTinLayout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 298, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 304, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPnNhapTTinLayout.setVerticalGroup(
@@ -167,9 +167,9 @@ public class bai_7 extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPnNhapTTinLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPnNhapTTinLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox1))
+                    .addComponent(nutNhap, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(hienThiSo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jCBChonSoAm))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane1)
                 .addGap(0, 0, 0))
@@ -214,9 +214,9 @@ public class bai_7 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void nutBoTDenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nutBoTDenActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_nutBoTDenActionPerformed
 
     /**
      * @param args the command line arguments
@@ -254,14 +254,8 @@ public class bai_7 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JCheckBox jCheckBox1;
+    private javax.swing.JTextField hienThiSo;
+    private javax.swing.JCheckBox jCBChonSoAm;
     private javax.swing.JList<String> jList1;
     private javax.swing.JPanel jPnBot;
     private javax.swing.JPanel jPnChonTacVu;
@@ -270,8 +264,14 @@ public class bai_7 extends javax.swing.JFrame {
     private javax.swing.JPanel jPnRoot;
     private javax.swing.JPanel jPntop;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JButton nutBoTDen;
     private javax.swing.JButton nutDongCT;
+    private javax.swing.JButton nutNhap;
+    private javax.swing.JButton nutTDenSChan;
+    private javax.swing.JButton nutTDenSLe;
+    private javax.swing.JButton nutTDenSNTo;
+    private javax.swing.JButton nutTGTTrongJL;
+    private javax.swing.JButton nutXoaCGTDTDen;
     private javax.swing.JLabel tieuDe;
     // End of variables declaration//GEN-END:variables
 }
