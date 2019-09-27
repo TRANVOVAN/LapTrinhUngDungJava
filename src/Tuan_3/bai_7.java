@@ -41,8 +41,8 @@ public class bai_7 extends javax.swing.JFrame {
         nutXoaCGTDTDen = new javax.swing.JButton();
         nutTGTTrongJL = new javax.swing.JButton();
         jPnNhapTTin = new javax.swing.JPanel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jList1 = new javax.swing.JList<>();
+        jScPSo = new javax.swing.JScrollPane();
+        jLSo = new javax.swing.JList<>();
         nutNhap = new javax.swing.JButton();
         hienThiSo = new javax.swing.JTextField();
         jCBChonSoAm = new javax.swing.JCheckBox();
@@ -131,12 +131,12 @@ public class bai_7 extends javax.swing.JFrame {
 
         jPnNhapTTin.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Nhập thông tin:", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11))); // NOI18N
 
-        jList1.setModel(new javax.swing.AbstractListModel<String>() {
+        jLSo.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { "4", "5", "6", "9", "11", "17", "18", "35", "67", "77", "84", " " };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });
-        jScrollPane1.setViewportView(jList1);
+        jScPSo.setViewportView(jLSo);
 
         nutNhap.setBackground(new java.awt.Color(153, 204, 255));
         nutNhap.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
@@ -159,7 +159,7 @@ public class bai_7 extends javax.swing.JFrame {
                 .addComponent(jCBChonSoAm)
                 .addContainerGap(20, Short.MAX_VALUE))
             .addGroup(jPnNhapTTinLayout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 304, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScPSo, javax.swing.GroupLayout.PREFERRED_SIZE, 304, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPnNhapTTinLayout.setVerticalGroup(
@@ -171,7 +171,7 @@ public class bai_7 extends javax.swing.JFrame {
                     .addComponent(hienThiSo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jCBChonSoAm))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1)
+                .addComponent(jScPSo)
                 .addGap(0, 0, 0))
         );
 
@@ -256,14 +256,14 @@ public class bai_7 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField hienThiSo;
     private javax.swing.JCheckBox jCBChonSoAm;
-    private javax.swing.JList<String> jList1;
+    private javax.swing.JList<String> jLSo;
     private javax.swing.JPanel jPnBot;
     private javax.swing.JPanel jPnChonTacVu;
     private javax.swing.JPanel jPnMid;
     private javax.swing.JPanel jPnNhapTTin;
     private javax.swing.JPanel jPnRoot;
     private javax.swing.JPanel jPntop;
-    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScPSo;
     private javax.swing.JButton nutBoTDen;
     private javax.swing.JButton nutDongCT;
     private javax.swing.JButton nutNhap;
